@@ -32,9 +32,10 @@ repositório.
 ## Como correr
 
 Ambos os notebooks correm de ponta a ponta em qualquer ambiente Jupyter
-(`jupyter notebook`, `jupyter lab`, ou VS Code/JupyterLab). `modelo_dados_reais.ipynb`
-requer ligação à internet, para descarregar preços históricos via
-`yfinance`; `cenarios_simulados.ipynb` não tem dependências externas.
+(`jupyter notebook`, `jupyter lab`, ou VS Code/JupyterLab).
+`modelo_dados_reais.ipynb` requer ligação à internet, para descarregar preços históricos via
+`yfinance`.
+`cenarios_simulados.ipynb` não tem dependências externas.
 
 ## Reprodutibilidade
 
