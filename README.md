@@ -6,7 +6,7 @@ fronteiras lineares no tempo, $M(t) = a_1 t + b_1$ e $m(t) = a_2 t + b_2$. Ao
 contrário de um modelo com limiares horizontais, as fronteiras podem ter declive,
 acompanhando uma tendência de fundo do preço.
 
-O repositório contém os dois notebooks, um relativo à estimação e validação em dados reais e um relativo à validação em dados simulados.
+O repositório contém os dois notebooks: um relativo à estimação e validação em dados reais, e outro à validação em dados simulados.
 
 ## Conteúdo
 
