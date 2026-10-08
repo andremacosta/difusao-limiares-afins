@@ -6,8 +6,7 @@ fronteiras lineares no tempo, $M(t) = a_1 t + b_1$ e $m(t) = a_2 t + b_2$. Ao
 contrário de um modelo com limiares horizontais, as fronteiras podem ter declive,
 acompanhando uma tendência de fundo do preço.
 
-O repositório contém os dois notebooks que sustentam a dissertação: a
-estimação e validação em dados reais e a validação em dados simulados.
+O repositório contém os dois notebooks, um relativo à estimação e validação em dados reais e um relativo à validação em dados simulados.
 
 ## Conteúdo
 
@@ -40,9 +39,8 @@ Ambos os notebooks correm de ponta a ponta em qualquer ambiente Jupyter
 ## Reprodutibilidade
 
 - **Dados simulados**: a geração das trajetórias usa sementes fixas por
-  omissão nos parâmetros das funções (`semente_ref=42` para a réplica de
-  referência, `semente_base=0` para o estudo de Monte Carlo); correr o
-  código sem alterar estes valores reproduz os mesmos resultados.
+  omissão nos parâmetros das funções. `semente_ref=42` para a réplica de
+  referência e `semente_base=0` para o estudo de Monte Carlo.
 - **Validação fora da amostra em dados reais**: as simulações de Monte Carlo
   da banda de previsão usam uma semente fixa por simulação (`seed=0,...,1999`),
-  embutida na própria função, não depende de configuração externa.
+  embutida na própria função.
